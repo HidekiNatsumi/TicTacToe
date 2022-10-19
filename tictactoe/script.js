@@ -255,10 +255,10 @@ const winningMovesBot = function (array) {
 //play again button
 
 document.querySelector(".reset").addEventListener("click", function () {
-  if (isWinner) alert("Player Won!");
-  if (isbotWinner) alert("Bot Won!");
   winningMoves(array);
   winningMovesBot(array);
+  if (isWinner) alert("Player Won!");
+  if (isbotWinner && !isWinner) alert("Bot Won!");
   if (isWinner) {
     humanwins++;
     document.querySelector(".player").textContent = humanwins;
