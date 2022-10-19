@@ -1,0 +1,120 @@
+body {
+  background-color: darkgray;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  width: 1750px;
+  color: powderblue;
+  -webkit-text-stroke: 1px black;
+}
+button {
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 1px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+.main-div {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+}
+.reset {
+  margin-top: 30px;
+  margin-left: 57px;
+  color: black;
+  background-color: rgb(215, 252, 252);
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+}
+p {
+  margin-left: 820px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.player {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 3px solid #73ad21;
+  width: 100px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botplayer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 3px solid #73ad21;
+  width: 100px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wins1 {
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wins2 {
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.winners {
+  background-color: rgb(128, 179, 238);
+
+  width: 300px;
+
+  margin-right: auto;
+  margin-left: 714px;
+  border: 3px solid #132327;
+  padding: 10px 0;
+  border-radius: 30px;
+}
+
+.footerc {
+  background-color: aquamarine;
+
+  text-align: center;
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  padding-inline: 759px;
+  background-color: white;
+}
+.list1 {
+  list-style: none;
+}
+.github {
+  font-size: 20px;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+  border-color: #92a8d1;
+  border-radius: 30%;
+  color: white;
+}
+.github:hover {
+  color: black;
+  background-color: darkgrey;
+}
