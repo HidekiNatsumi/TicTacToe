@@ -15,9 +15,9 @@ const checkArrayFull = function (array) {
       size++;
     }
   }
-  console.log(size);
-  console.log(isWinner);
-  console.log(isbotWinner);
+  //console.log(size);
+  //console.log(isWinner);
+  //console.log(isbotWinner);
   return size;
 };
 
@@ -47,7 +47,7 @@ function aiMovement(move) {
         document.querySelector(`.index${move}`).style.backgroundColor =
           "#DC143C";
         array[move - 1] = 0;
-        console.log(array);
+        //console.log(array);
         winningMoves(array);
         break;
       }
@@ -66,7 +66,7 @@ document.querySelector(".index1").addEventListener("click", function () {
     document.querySelector(".index1").style.backgroundColor = "#60b347";
     array[0] = 1;
     if (checkArrayFull(array) != 1) {
-      console.log("futur brenda");
+      //console.log("futur brenda");
       aiMovement(aiTurn());
     }
   }
@@ -219,23 +219,23 @@ const winningMovesBot = function (array) {
 
   if (array[0] == 0 && array[1] == 0 && array[2] == 0) {
     isbotWinner = true;
-    console.log("winner");
+  //  console.log("winner");
   }
   if (array[3] == 0 && array[4] == 0 && array[5] == 0) {
     isbotWinner = true;
-    console.log("winner");
+  //  console.log("winner");
   }
   if (array[0] == 0 && array[3] == 0 && array[6] == 0) {
     isbotWinner = true;
-    console.log("winner");
+  //  console.log("winner");
   }
   if (array[1] == 0 && array[4] == 0 && array[7] == 0) {
     isbotWinner = true;
-    console.log("winner");
+   // console.log("winner");
   }
   if (array[2] == 0 && array[5] == 0 && array[8] == 0) {
     isbotWinner = true;
-    console.log("winner");
+   // console.log("winner");
   }
   if (array[0] == 0 && array[4] == 0 && array[8] == 0) {
     isbotWinner = true;
@@ -243,11 +243,11 @@ const winningMovesBot = function (array) {
   }
   if (array[2] == 0 && array[4] == 0 && array[6] == 0) {
     isbotWinner = true;
-    console.log("winner");
+   // console.log("winner");
   }
   if (array[6] == 0 && array[7] == 0 && array[8] == 0) {
     isbotWinner = true;
-    console.log("winner");
+  //  console.log("winner");
   }
   return isbotWinner;
 };
