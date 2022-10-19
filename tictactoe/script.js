@@ -31,7 +31,7 @@ function aiMovement(move) {
     array[move - 1] != 0 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(`.index${move}`).style.backgroundColor = "#DC143C";
+    document.querySelector(`.index${move}`).style.backgroundColor = "#ff6664";
     array[move - 1] = 0;
     checkArrayFull(array);
     winningMoves(array);
@@ -45,7 +45,7 @@ function aiMovement(move) {
 
       if (array[move - 1] != 1 && array[move - 1] != 0) {
         document.querySelector(`.index${move}`).style.backgroundColor =
-          "#DC143C";
+          "#ff6664";
         array[move - 1] = 0;
         console.log(array);
         winningMoves(array);
@@ -63,7 +63,7 @@ document.querySelector(".index1").addEventListener("click", function () {
     (array[0] != 0 && array[0] != 1 && !winningMoves(array)) ||
     (array[0] != 0 && array[0] != 1 && !winningMovesBot(array))
   ) {
-    document.querySelector(".index1").style.backgroundColor = "#60b347";
+    document.querySelector(".index1").style.backgroundColor = "#90ee90";
     array[0] = 1;
     if (checkArrayFull(array) != 1) {
       console.log("futur brenda");
@@ -81,7 +81,7 @@ document.querySelector(".index2").addEventListener("click", function () {
     array[1] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index2").style.backgroundColor = "#60b347";
+    document.querySelector(".index2").style.backgroundColor = "#90ee90";
     array[1] = 1;
     aiMovement(aiTurn());
   }
@@ -95,7 +95,7 @@ document.querySelector(".index3").addEventListener("click", function () {
     array[2] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index3").style.backgroundColor = "#60b347";
+    document.querySelector(".index3").style.backgroundColor = "#90ee90";
     array[2] = 1;
     aiMovement(aiTurn());
   }
@@ -109,7 +109,7 @@ document.querySelector(".index4").addEventListener("click", function () {
     array[3] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index4").style.backgroundColor = "#60b347";
+    document.querySelector(".index4").style.backgroundColor = "#90ee90";
     array[3] = 1;
     aiMovement(aiTurn());
   }
@@ -123,7 +123,7 @@ document.querySelector(".index5").addEventListener("click", function () {
     array[4] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index5").style.backgroundColor = "#60b347";
+    document.querySelector(".index5").style.backgroundColor = "#90ee90";
     array[4] = 1;
     aiMovement(aiTurn());
   }
@@ -137,7 +137,7 @@ document.querySelector(".index6").addEventListener("click", function () {
     array[5] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index6").style.backgroundColor = "#60b347";
+    document.querySelector(".index6").style.backgroundColor = "#90ee90";
     array[5] = 1;
     aiMovement(aiTurn());
   }
@@ -151,7 +151,7 @@ document.querySelector(".index7").addEventListener("click", function () {
     array[6] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index7").style.backgroundColor = "#60b347";
+    document.querySelector(".index7").style.backgroundColor = "#90ee90";
     array[6] = 1;
     aiMovement(aiTurn());
   }
@@ -165,7 +165,7 @@ document.querySelector(".index8").addEventListener("click", function () {
     array[7] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index8").style.backgroundColor = "#60b347";
+    document.querySelector(".index8").style.backgroundColor = "#90ee90";
     array[7] = 1;
     aiMovement(aiTurn());
   }
@@ -179,7 +179,7 @@ document.querySelector(".index9").addEventListener("click", function () {
     array[8] != 1 &&
     !winningMovesBot(array)
   ) {
-    document.querySelector(".index9").style.backgroundColor = "#60b347";
+    document.querySelector(".index9").style.backgroundColor = "#90ee90";
     array[8] = 1;
     aiMovement(aiTurn());
   }
@@ -278,3 +278,5 @@ document.querySelector(".reset").addEventListener("click", function () {
 
   console.log(humanwins, "humanwins", botwins, "botwins");
 });
+
+function minimax() {}
