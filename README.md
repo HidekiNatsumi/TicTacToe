@@ -13,9 +13,10 @@ Informations
 
 Screenshots
 -
-![tictactoe1](https://user-images.githubusercontent.com/96385473/196720197-bc788f7d-018f-4c66-8502-fbd4fbe64bf0.png)
+![tictactoe1](https://user-images.githubusercontent.com/96385473/196798547-fbbac100-d384-4c0b-b14d-3f0fea714fff.png)
 
-![tictactoe2](https://user-images.githubusercontent.com/96385473/196720205-1b69c536-02ed-49fe-acae-cdfd23f42b62.png)
+![tictactoe2](https://user-images.githubusercontent.com/96385473/196798557-7f06817c-3435-4768-91c0-fc01091422ff.png)
+
 
 ---
 <strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
