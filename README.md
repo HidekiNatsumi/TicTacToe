@@ -13,6 +13,6 @@ Informations
 
 Screenshots
 -
-![tictactoe1](https://user-images.githubusercontent.com/96385473/196719787-e3e23eed-f3eb-421b-ac3d-fdf942cffc33.png)
+![tictactoe1](https://user-images.githubusercontent.com/96385473/196720197-bc788f7d-018f-4c66-8502-fbd4fbe64bf0.png)
 
-![tictactoe2](https://user-images.githubusercontent.com/96385473/196719789-5a6783c0-d8b9-48bf-8082-4c8d82cacc13.png)
+![tictactoe2](https://user-images.githubusercontent.com/96385473/196720205-1b69c536-02ed-49fe-acae-cdfd23f42b62.png)
