@@ -6,9 +6,9 @@ Tic-Tac-Toe game
 Informations
 -
 <ul>
-<li>You will play against a bot</li>
-<li>The game will display how many wins you and the bot will have</li>
-<li>Use play again button to try another game</li>
+<li>You will play against a bot.</li>
+<li>The game will display how many wins you and the bot will have.</li>
+<li>Use play again button to try another game.</li>
 </ul>
 
 Screenshots
