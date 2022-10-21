@@ -17,5 +17,5 @@ Screenshots
 
 ![tictactoe2](https://user-images.githubusercontent.com/96385473/196806137-34c54b74-0b99-44e3-a19f-44bea9032096.png)
 
----
+----
 <strong>Contributors :[Hideki Natsumi](https://github.com/HidekiNatsumi) 
