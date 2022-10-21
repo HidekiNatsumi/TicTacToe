@@ -3,7 +3,7 @@ Tic-Tac-Toe game
 
 
 
-Informations
+Information
 -
 <ul>
 <li>You will play against a bot.</li>
