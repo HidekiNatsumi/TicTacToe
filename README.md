@@ -2,7 +2,6 @@
 Tic-Tac-Toe game 
 
 
-
 Information
 -
 <ul>
